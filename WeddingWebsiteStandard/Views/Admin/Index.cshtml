@@ -1,0 +1,13 @@
+﻿@Model  WeddingWebsiteStandard.Models.Guest
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Admin Page</h2>
+
+<div class="container" id="guestAdminn">
+
+    @{Html.RenderAction("_GuestAdmin", "Admin");
+    }
+</div>
+

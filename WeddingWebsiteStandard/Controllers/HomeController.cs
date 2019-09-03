@@ -20,9 +20,9 @@ namespace WeddingWebsiteStandard.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Hotels()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Local Hotels";
 
             return View();
         }
