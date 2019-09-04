@@ -173,6 +173,7 @@
     <Compile Include="Controllers\GiftsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ViewModels\AdminPageViewModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -259,6 +260,7 @@
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\_GuestAdmin.cshtml" />
     <Content Include="Views\Admin\CreateGuest.cshtml" />
+    <Content Include="Views\Admin\_InvitationAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
